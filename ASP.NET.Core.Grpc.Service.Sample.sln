@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NET.Core.Grpc.Service.Server", "ASP.NET.Core.Grpc.Service.Server\ASP.NET.Core.Grpc.Service.Server.csproj", "{F49748AD-72FC-4E26-9A84-3F017740C8B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NET.Core.Grpc.Service.Client", "ASP.NET.Core.Grpc.Service.Client\ASP.NET.Core.Grpc.Service.Client.csproj", "{3EF1A794-EF4E-47EC-8878-96D3C440AE53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "proto", "proto", "{94F14391-9547-43D9-ADFC-C5B8E3DBBD6D}"
+	ProjectSection(SolutionItems) = preProject
+		Protos\greet.proto = Protos\greet.proto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F49748AD-72FC-4E26-9A84-3F017740C8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49748AD-72FC-4E26-9A84-3F017740C8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49748AD-72FC-4E26-9A84-3F017740C8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49748AD-72FC-4E26-9A84-3F017740C8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF1A794-EF4E-47EC-8878-96D3C440AE53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF1A794-EF4E-47EC-8878-96D3C440AE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF1A794-EF4E-47EC-8878-96D3C440AE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF1A794-EF4E-47EC-8878-96D3C440AE53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D534A0B-3A61-401E-8421-6C48C51DA653}
+	EndGlobalSection
+EndGlobal
