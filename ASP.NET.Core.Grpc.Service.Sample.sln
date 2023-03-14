@@ -7,11 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NET.Core.Grpc.Service.S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NET.Core.Grpc.Service.Client", "ASP.NET.Core.Grpc.Service.Client\ASP.NET.Core.Grpc.Service.Client.csproj", "{3EF1A794-EF4E-47EC-8878-96D3C440AE53}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "proto", "proto", "{94F14391-9547-43D9-ADFC-C5B8E3DBBD6D}"
-	ProjectSection(SolutionItems) = preProject
-		Protos\greet.proto = Protos\greet.proto
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
